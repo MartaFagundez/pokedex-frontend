@@ -41,3 +41,25 @@
   filter: drop-shadow(3px 3px 3px rgba(76, 76, 76, 0.5));
   cursor: pointer;
 }
+
+.authorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5em 0;
+  font-size: 0.8rem;
+  color: var(--psychic);
+  position: absolute;
+  bottom: 5vh;
+  left: 0;
+}
+
+.link:link,
+.link:visited {
+  color: var(--psychic);
+}
+.link:hover,
+.link:active {
+  color: white;
+}

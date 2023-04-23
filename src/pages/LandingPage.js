@@ -67,11 +67,27 @@ const button = {
         transition: {
             type: "spring",
             stiffness: 120,
-            delay: 3,
+            delay: 4,
         }
     },
     hover: {
         scale: 1.1,
+    }
+};
+
+const author = {
+    hidden: {
+        scale: 0.5,
+        opacity: 0,
+    },  
+    visible: {
+        scale: 1,
+        opacity: 1,
+        transition: {
+            type: "spring",
+            stiffness: 120,
+            delay: 3,
+        }
     }
 };
 
@@ -115,6 +131,13 @@ const LandingPage = () => {
                 whileHover="hover"
             >Let's Play!
             </motion.button>
+            <motion.div className={styles.authorContainer}
+                variants={author}
+                initial="hidden"
+                animate="visible"
+            >
+                <h3>Made with ❤ by  <a href="https://www.linkedin.com/in/martafagundezrodriguez/" target="_blank" rel="noreferrer" className={styles.link} > Marta Fagúndez</a> </h3>
+            </motion.div>
         </motion.div>
     );
 };

@@ -95,3 +95,23 @@
   width: 100%;
   padding: 2em 0;
 }
+
+.authorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0.5em auto 1.5em auto;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgb(169, 169, 169);
+}
+
+.link:link,
+.link:visited {
+  color: rgb(169, 169, 169);
+}
+.link:hover,
+.link:active {
+  color: var(--accent);
+}
