@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Crear una instancia de axios
 const apiClient = axios.create({
-    baseURL: "http://localhost:3001/api", // URL del servidor (backend)
+    baseURL: "https://pokedex-backend-production-8133.up.railway.app/api", // URL del servidor (backend)
 });
 
 
