@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.5em auto 0 auto;
+}
+
+.title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.25rem 0;
+}
+
+.main select {
+  width: 50%;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  border: none;
+}
+
+.main button {
+  background-color: rgb(180, 180, 180);
+  border-radius: 3px;
+  padding: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.main button:hover {
+  background-color: rgba(244, 167, 37, 0.75);
+}
+
+.main button img {
+  width: 100%;
+}

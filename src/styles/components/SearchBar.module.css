@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.5em auto 0 auto;
+}
+
+.title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.radioContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.radioContainer label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 0.5rem;
+}
+.radioContainer input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 0.25rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.25rem 0;
+}
+
+.main input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  border: none;
+}
+
+.main button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-left: -3rem;
+  transition: all 0.3s ease-in-out;
+}
+.main button img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.main button:hover img {
+  transform: scale(1.15);
+}

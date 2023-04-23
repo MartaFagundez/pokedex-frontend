@@ -1,0 +1,194 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.backButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 0.5em;
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+}
+
+.backButtonContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  background: var(--accent);
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  margin: 0 0.25rem;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  padding: 1em;
+  color: white;
+}
+
+.infoContainer h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: -0.75em;
+}
+
+.infoContainer h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.infoContainer p {
+  font-size: 1.25em;
+}
+
+.typesContainer {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+
+.typeDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  margin: 0 0.25em;
+}
+
+.typeName p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.typeName h3 {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.typeIcon {
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+}
+
+.typeIcon img {
+  width: 100%;
+  height: auto;
+}
+
+.bug {
+  background-color: var(--bug);
+}
+
+.dark {
+  background-color: var(--dark);
+}
+
+.dragon {
+  background-color: var(--dragon);
+}
+
+.electric {
+  background-color: var(--electric);
+}
+
+.fairy {
+  background-color: var(--fairy);
+}
+
+.fight {
+  background-color: var(--fight);
+}
+
+.fire {
+  background-color: var(--fire);
+}
+
+.flying {
+  background-color: var(--flying);
+}
+
+.ghost {
+  background-color: var(--ghost);
+}
+
+.grass {
+  background-color: var(--grass);
+}
+
+.ground {
+  background-color: var(--ground);
+}
+
+.ice {
+  background-color: var(--ice);
+}
+
+.normal {
+  background-color: var(--normal);
+}
+
+.poison {
+  background-color: var(--poison);
+}
+
+.psychic {
+  background-color: var(--psychic);
+}
+
+.rock {
+  background-color: var(--rock);
+}
+
+.steel {
+  background-color: var(--steel);
+}
+
+.water {
+  background-color: var(--water);
+}

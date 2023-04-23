@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ededed;
+}
+
+.filterPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9vh 2em 2em 2em;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 400px;
+  background-color: #d8d8d8;
+  position: sticky;
+  top: 0;
+  left: 0;
+  filter: drop-shadow(2px 0px 4px rgba(0, 0, 0, 0.2));
+}
+
+.filterPanel hr {
+  width: 100%;
+  margin: 0.5rem 0;
+  color: rgba(169, 169, 169, 1);
+  border-style: solid;
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.panelHeader h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+}
+.panelHeader button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.panelHeader button:hover {
+  background-color: rgba(244, 167, 37, 0.75);
+}
+.panelHeader button img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.panelHeader button:hover img {
+  content: url("../../images/icons/resetFilters.png");
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background-color: aquamarine;
+  padding: 2em;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2em 0;
+}

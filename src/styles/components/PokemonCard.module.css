@@ -1,0 +1,209 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 230px;
+  height: 260px;
+  padding: 0.5em;
+  margin: 1em;
+  margin-top: 100px;
+  border-radius: 1.5rem;
+  /* background-color: var(--bug); */
+  box-shadow: 4px 4px 0px var(--shadow);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.container:hover {
+  transform: scale(1.04);
+  box-shadow: 7px 7px 0px var(--shadow);
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  top: -120px;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  width: auto;
+  transition: all 0.4s ease-in-out;
+}
+.container:hover .imageContainer img {
+  transform: scale(1.06) translateY(-15px);
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -115px;
+}
+
+.id {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -0.7em;
+  margin-bottom: -0.4em;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nameLong {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.25rem;
+  margin-top: 0.25em;
+}
+
+.nameExtraLong {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.15rem;
+  margin-top: 0.25em;
+}
+
+.typesContainer {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.25em;
+  padding: 0.25em;
+  position: relative;
+  top: -100px;
+}
+
+.typeDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  margin: 0 0.25em;
+}
+
+.typeName p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.typeName h3 {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.typeIcon {
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+}
+
+.typeIcon img {
+  width: 100%;
+  height: auto;
+}
+
+.bug {
+  background-color: var(--bug);
+}
+
+.dark {
+  background-color: var(--dark);
+}
+
+.dragon {
+  background-color: var(--dragon);
+}
+
+.electric {
+  background-color: var(--electric);
+}
+
+.fairy {
+  background-color: var(--fairy);
+}
+
+.fight {
+  background-color: var(--fight);
+}
+
+.fire {
+  background-color: var(--fire);
+}
+
+.flying {
+  background-color: var(--flying);
+}
+
+.ghost {
+  background-color: var(--ghost);
+}
+
+.grass {
+  background-color: var(--grass);
+}
+
+.ground {
+  background-color: var(--ground);
+}
+
+.ice {
+  background-color: var(--ice);
+}
+
+.normal {
+  background-color: var(--normal);
+}
+
+.poison {
+  background-color: var(--poison);
+}
+
+.psychic {
+  background-color: var(--psychic);
+}
+
+.rock {
+  background-color: var(--rock);
+}
+
+.steel {
+  background-color: var(--steel);
+}
+
+.water {
+  background-color: var(--water);
+}
