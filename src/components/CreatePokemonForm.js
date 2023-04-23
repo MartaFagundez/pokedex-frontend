@@ -28,12 +28,12 @@ const image = {
 
 const CreatePokemonForm = () => {
   // Imágenes de los pokemones para seleccionar
-  const imgPk1 = "https://raw.githubusercontent.com/MartaFagundez/pi-pokedex-app/main/client/src/images/pk1.png";
-  const imgPk2 = "https://raw.githubusercontent.com/MartaFagundez/pi-pokedex-app/main/client/src/images/pk2.png";
-  const imgPk3 = "https://raw.githubusercontent.com/MartaFagundez/pi-pokedex-app/main/client/src/images/pk3.png";
-  const imgPk4 = "https://raw.githubusercontent.com/MartaFagundez/pi-pokedex-app/main/client/src/images/pk4.png";
-  const imgPk5 = "https://raw.githubusercontent.com/MartaFagundez/pi-pokedex-app/main/client/src/images/pk5.png";
-  const imgPk6 = "https://raw.githubusercontent.com/MartaFagundez/pi-pokedex-app/main/client/src/images/pk6.png";
+  const imgPk1 = "https://raw.githubusercontent.com/MartaFagundez/pokedex-frontend/main/src/images/pk1.png";
+  const imgPk2 = "https://raw.githubusercontent.com/MartaFagundez/pokedex-frontend/main/src/images/pk2.png";
+  const imgPk3 = "https://raw.githubusercontent.com/MartaFagundez/pokedex-frontend/main/src/images/pk3.png";
+  const imgPk4 = "https://raw.githubusercontent.com/MartaFagundez/pokedex-frontend/main/src/images/pk4.png";
+  const imgPk5 = "https://raw.githubusercontent.com/MartaFagundez/pokedex-frontend/main/src/images/pk5.png";
+  const imgPk6 = "https://raw.githubusercontent.com/MartaFagundez/pokedex-frontend/main/src/images/pk6.png";
 
   const pokemonImages = [imgPk1, imgPk2, imgPk3, imgPk4, imgPk5, imgPk6];
 
