@@ -2,10 +2,12 @@ import React from "react";
 import styles from "../styles/components/Header.module.css";
 import logo from "../images/logo_small.png";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Header({ onClickFilterButton, onClickResetFilterButton, onClickCreateButton }) {
     // Lógica del componente
+    const navigate = useNavigate();
     const { isOpen } = useSelector((state) => state.filterPanel);
     
     // Renderizado del componente
@@ -13,7 +15,10 @@ export default function Header({ onClickFilterButton, onClickResetFilterButton, 
         <div className={styles.container}>
             <div className={styles.logoContainer}>
                 <figure>
-                    <img src={logo} alt="Logo de Pokémon" />
+                    <img src={logo} alt="Logo de Pokémon" 
+                        onClick={() => navigate("/")}
+                        title="Go to Landing Page"
+                    />
                 </figure>
             </div>
             
